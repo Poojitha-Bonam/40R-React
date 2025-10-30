@@ -1,0 +1,36 @@
+.student-container {
+  padding: 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.student-title {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.student-table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 60%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.student-table th,
+.student-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.student-table th {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+.student-table tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+.student-table tr:hover {
+  background-color: #e6f7ff;
+}

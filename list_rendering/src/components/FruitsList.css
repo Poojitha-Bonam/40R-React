@@ -1,0 +1,30 @@
+.fruits-container {
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.fruits-title {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.fruits-list {
+  list-style-type: none;
+  padding: 0;
+  width: 200px;
+  margin: 0 auto;
+}
+
+.fruit-item {
+  background-color: #f2f2f2;
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.fruit-item:hover {
+  background-color: #cdeaff;
+}
