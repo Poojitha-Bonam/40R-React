@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 
 class CarControl extends Component {
-  constructor(props) {
-    super(props);
+  constructor() {
+    super();
     this.state = { message: "" };
 
     // Binding methods
@@ -20,9 +20,9 @@ class CarControl extends Component {
 
   render() {
     return (
-      <div style={{ textAlign: "center", marginTop: "30px" }}>
+      <div>
         <button onClick={this.startCar}>Start Car</button>
-        <button onClick={this.stopCar} style={{ marginLeft: "10px" }}>
+        <button onClick={this.stopCar}>
           Stop Car
         </button>
         <p>{this.state.message}</p>

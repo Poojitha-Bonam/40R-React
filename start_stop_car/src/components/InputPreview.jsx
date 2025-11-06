@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 
 class InputPreview extends Component {
-  constructor(props) {
-    super(props);
+  constructor() {
+    super();
     this.state = {
       text: "",
       finalText: ""
@@ -23,7 +23,7 @@ class InputPreview extends Component {
 
   render() {
     return (
-      <div style={{ textAlign: "center", marginTop: "30px" }}>
+      <div>
         <label>
           Enter Text:{" "}
           <input
@@ -36,7 +36,7 @@ class InputPreview extends Component {
         <button onClick={this.handleSubmit}>Submit</button>
 
         {this.state.finalText && (
-          <div style={{ marginTop: "20px" }}>
+          <div>
             <h1>{this.state.finalText}</h1>
           </div>
         )}
